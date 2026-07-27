@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-family: "Montserrat";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero{
+    border: 2px solid white;
+    border-radius: 10px;
+   max-width: 1200px;
+   width: 100%;
+   height: auto;
+   background-color: black;
+   color: white;
+   position: relative;
+
+   
+}
+
+
+.logo{
+    width: 75px;
+    height: 8vh;
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+    object-fit: cover;
+    object-position: center 20%;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookbutton{
+    position: absolute;
+    right: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 8vw;
+    height: 40px;
+    background: #ff6a00;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navigetion{
+    border: 2px solid white;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+.topbaar{
+       
+      display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    font-weight: 700;
+}
+
+.background-image{
+   background-image: url(restaurant\ background.png);
+   width: 100%;
+   height: 60vh;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-position: center;
+   background-size: contain;
+   
+}
+
+
+  .tast{
+    position: absolute;
+    rotate: -60deg;
+    font-size: 110px;
+    color: #ff6a00;
+    margin-top: 145px;
+    font-weight: 600;
+  }
+
+  .bites{
+    display: flex;
+    justify-content: end;
+   
+  }
+ 
+  .bite{
+    position: absolute;
+    rotate: -60deg;
+    font-size: 110px;
+    color: #ff6a00;
+    margin-top: 145px;
+      font-weight: 600;
+  
+  }
+ 
+
+.backgroundtext1{
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.topsmalltext{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+.bigtexts{
+    margin-top: 20px;
+}
+.bigtext1,
+.bigtext2{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.bigtext2{
+    color: #ff6a00;
+}
+.smalltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+
+}
+.button1,
+.button2{
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+
+}
+.button1{
+    color: white;
+    background-color:#ff6a00;
+}
+.button2{
+    color: black;
+    background-color: white;
+
+}
+
+.border{
+    /* margin-top: 40px; */
+    border: 1px solid white;
+    width: 100%;
+}
+.outtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.special{
+    font-size: 14px;
+    color: #ff6a00;
+}
+.specia2{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.img1{
+    border: 2px solid black;
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+    background: white;
+         border-radius: 10px;
+
+}
+.img2{
+     border: 2px solid black;
+    width: 20vw;
+    object-fit: cover;
+        background: white;
+            height: 40vh;     
+                 border-radius: 10px;
+
+}
+.img3{
+     border: 2px solid black;
+    width: 20vw;
+    object-fit: cover;
+        background: white;
+            height: 40vh;
+            border-radius: 10px;
+            object-position: center 80%;
+
+}
+.burger{
+    margin-top: 20px;
+    font-size: 30px; 
+}
+.burger-price{
+    margin-top: 40px;
+      width: 20vw;
+    height: 40px;
+    color: white;
+    background: #ff6a00;
+    font-weight: 700;
+      font-size: 25px;
+      border-radius: 6px;
+}
+.pasta{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.pasta-price{
+    margin-top: 40px;
+      width: 20vw;
+    height: 40px;
+    color: white;
+      background: #ff6a00;
+      font-weight: 700;
+      font-size: 25px;
+       border-radius: 6px;
+}
+.pizza{
+    margin-top: 20px;
+    font-size: 30px; 
+}
+.pizza-price{
+    margin-top: 40px;
+    width: 20vw;
+    height: 40px;
+    color: white;
+      background: #ff6a00;
+      font-weight: 700;
+      font-size: 25px;
+       border-radius: 6px;
+}
+
+.author{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.number{
+    color: #ff6a00;
+}
+
+@media (max-width : 998px){
+    .hero{
+        width: 100%;
+        height: auto;
+    }
+    .background-image{
+        background-size: 60%;
+    }
+    .tast{
+        font-size: 75px;
+    }
+    .bite{
+        font-size: 75px;
+    }
+    .burger{
+       font-size: 25px; 
+    }
+    .pizza{
+        
+       font-size: 25px;
+    }
+    .pasta{
+        font-size: 25px;
+       
+    }
+    .author{
+        font-size: 27px;
+    }
+
+    
+}
+@media (max-width : 768px){
+    .tast{
+        font-size: 55px;
+    }
+    .bite{
+        font-size: 55px;
+    }
+    .background-image{
+        height: auto;
+        width: 100%;
+    }
+    .bigtext1{
+        font-size: 40px;
+       
+    }
+    .bigtext2{
+        font-size: 40px;
+    }
+     .burger{
+       font-size: 20px; 
+    }
+    .pizza{
+        
+       font-size: 20px;
+    }
+    .pasta{
+        font-size: 20px;
+       
+    }
+    .author{
+        font-size: 23px;
+        margin-left: 50px;
+    }
+    .img1{
+        width: 25vw;
+        height: 35vh;
+    }
+    
+    .img2{
+      width: 25vw;
+        height: 35vh;
+    }
+    
+    .img3{
+       width: 25vw;
+        height: 35vh;
+    }
+     .burger-price{
+        width: 85%;
+    }
+    .pizza-price{
+        width: 85%;
+    }
+    .pasta-price{
+        width: 85%;
+    }
+    
+}
+@media(max-width : 576px){
+    .bookbutton{
+        width: 60px;
+    }
+
+    .topbaar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        gap: 20px;
+    }
+    .tast{
+        font-size: 35px;
+    }
+    .bite{
+        font-size: 35px;
+    }
+    .bigtext1{
+        font-size: 35px;
+        
+    }
+    .bigtext2{
+        font-size: 35px;
+    }
+    .smalltext{
+        font-size: 13px;
+    }
+    .background-image{
+        margin-top: -30px;
+        
+    }
+    .button1,.button2{
+        width: 110px;
+        height: 40px;
+        margin-top: 20px;
+
+    }
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+    .img1{
+        width: 40vw;
+    }
+    .img2{
+        width: 40vw;
+    }
+    .img3{
+        width: 40vw;
+        margin-top: 20px;
+    }
+    .burger-price{
+        width: 100%;
+    }
+    .pizza-price{
+        width: 100%;
+    }
+    .pasta-price{
+        width: 100%;
+    }
+    .author{
+        font-size: 20px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width : 480px){
+    .topbaar{
+        gap: 15px;
+    }
+    .bookbutton{
+        width: 60px;
+    }
+    .tast{
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .bite{
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .topsmalltext{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .bigtext1{
+        font-size: 25px;
+    }
+    .bigtext2{
+        font-size: 25px;
+    }
+    .smalltext{
+        font-size: 10px;
+    }
+    .buttons{
+        gap: 25px;
+    }
+    .button1,.button2{
+        width: 120px;
+        
+    }
+}
+
+
