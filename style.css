@@ -502,6 +502,18 @@ body{
     .img3{
         width: 60vw;
     }
+    .pizza-price{
+        margin-top: 20px;
+     
+    }
+    .pasta-price{
+        margin-top: 20px;
+       
+    }
+    .burger-price{
+        margin-top: 20px;
+        
+    }
 }
 
 
