@@ -449,19 +449,27 @@ body{
 }
 
 @media (max-width : 480px){
+    .background-image{
+        margin-block: -50px;
+    }
+
     .topbaar{
-        gap: 15px;
+        gap: 10px;
+        font-size: 10px;
+   
     }
     .bookbutton{
         width: 60px;
     }
     .tast{
-        font-size: 28px;
-        margin-left: 10px;
+        font-size: 24px;
+        margin-left: 4px;
+        margin-top: 17vh;
     }
     .bite{
-        font-size: 28px;
-        margin-right: 10px;
+       font-size: 24px;
+        margin-left: 4px;
+        margin-top: 17vh;
     }
     .topsmalltext{
         margin-top: 40px;
@@ -477,11 +485,22 @@ body{
         font-size: 10px;
     }
     .buttons{
-        gap: 25px;
+        display: flex;
+        justify-content: space-between;
+        
     }
     .button1,.button2{
-        width: 120px;
+        width: 75px;
         
+    }
+    .img1{
+        width: 60vw;
+    }
+    .img2{
+        width: 60vw;
+    }
+    .img3{
+        width: 60vw;
     }
 }
 
